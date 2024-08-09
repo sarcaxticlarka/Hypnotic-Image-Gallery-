@@ -137,13 +137,20 @@ nav .nav-item{
  }
 
 
- .gallary.layout-2-gallary{
+/*  .gallary.layout-2-gallary{
     padding-top:  0.em;
     position: fixed;
     top: 25%;
     left: 10%;
     transform: translateX(0%);
- }
+ } */
+.gallary.layout-2-gallary {
+    position: absolute; /* Change from fixed to relative */
+    top: 25%;
+    left: 10%;
+    transform: translateX(0%);
+    padding-top: 0em; /* Fixed padding */
+}
 
  .gallary.layout-2-gallary .img{
     width: 75px;
